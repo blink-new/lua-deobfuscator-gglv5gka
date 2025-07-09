@@ -441,6 +441,14 @@ print(${'a'.repeat(20)}..${'b'.repeat(15)}("test"))`}
                       Built with React, TypeScript, and Tailwind CSS
                     </span>
                   </div>
+                  <Button 
+                    variant="outline"
+                    onClick={() => window.open('https://github.com/blink-new/lua-deobfuscator-gglv5gka', '_blank')}
+                    className="flex items-center gap-2"
+                  >
+                    <Github className="h-4 w-4" />
+                    Fork on GitHub
+                  </Button>
                 </CardContent>
               </Card>
             </TabsContent>
